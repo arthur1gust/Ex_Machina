@@ -1,20 +1,15 @@
-/*
-	Ex Machina by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 @charset 'UTF-8';
 
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
-/*********************************************************************************/
-/* Basic                                                                         */
-/*********************************************************************************/
-
+	html {
+		font-size: 16px;
+	}
 	body
 	{
-		/*background: #202020 url(images/img01.jpg) repeat;*/
+		margin:0;
+		padding: 0;
 	
 	}
 
@@ -50,14 +45,27 @@
 	display: flex;
 	justify-content: space-between;
 }
-
+.logo {
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 175%;
+}
 .menu {
 	display:flex;
 	justify-content: center;
+	list-style: none;
+	padding: 0.80em 1.2em;
+	
+
 	
 }
 .menu a {
 	margin-right: 30px;
+	text-decoration: none;
+	text-transform:uppercase;
+	color: #333;
+	font-size: 1.1rem;
+	font-weight: 300;
 }
 
 .back {
